@@ -1,7 +1,7 @@
 {
   "name": "tikslusnotyrious",
   "title": "Tikslus notyrious: Jquery notification pulugin with 7 skins,custom buttons,images and progress bar.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Jquery notification pulugin with custom buttons,images and progress bar. Dispatch multiple messages at once.",
   "homepage": "http://tikslus.com/tikslusnotyrious/",
   "repository": {
