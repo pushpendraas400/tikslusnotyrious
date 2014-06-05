@@ -1,0 +1,555 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<head>
+<title>Tikslus Sticky examples</title>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="../tikslus_notyrious.min.js"></script>
+<script type="text/javascript" src="rainbow.min.js"></script>
+<link rel="stylesheet" href="normalize.css" />
+<link rel="stylesheet" href="github.css" />
+<link rel="stylesheet" href="../tikslus_notyrious.css"/>
+<style>
+body{
+padding:20px;
+}
+</style>
+</head>
+<body>
+	
+		<h1 class="main_heading">Tikslus Notyrious - Jquery notification plugin</h1>
+                
+             
+                
+                <h4 class="heading">Usage</h4>
+                
+                
+                    
+
+                <p>Include jquery,tikslus_notyroious.min.js and tikslus_notyrious.css files </p>
+              
+<pre>
+<code data-language="javascript">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<script type="text/javascript" src="tikslus_notyrious.min.js"></script>
+</code>
+</pre>	
+                
+                <pre>
+                <code data-language="css">
+                    <link rel="stylesheet" href="tikslus_notyrious.css"/>
+                    </code>
+                </pre>                
+               
+                
+                <h4 class="heading">Example 1: sticky notification </h4>
+                <p>Javascript</p>
+		<pre>
+		<code data-language="javascript">
+                    $("#example1").click(function(e){
+                    e.preventDefault();
+                  $.fn.tikslusnotyrious({"title":'example 1',
+                  "message":"Light travels faster than sound. This is why some people appear bright until you hear them speak.",
+                  sticky:true,
+				  skinPath:'../'
+                  
+                  });
+                  });
+                </code>
+                </pre>
+                
+                <a href='#' id='example1'>Run Example 1</a>
+                
+                <!-- code implementation -->
+                
+                <script language="javascript">
+                   $("#example1").click(function(e){
+                    e.preventDefault();  
+            $.fn.tikslusnotyrious({"title":'example 1',
+                  message:"Light travels faster than sound. This is why some people appear bright until you hear them speak.",
+                  sticky:true,
+				  skinPath:'../'
+                 
+                  
+                  });
+                   });
+                    </script>
+            
+                    
+                         
+                      <h4 class="heading">Example 2: Non Sticy notification </h4>
+                <p>Javascript</p>
+		<pre>
+		<code data-language="javascript">
+                      $("#example2").click(function(e){
+                    e.preventDefault();  
+                 $.fn.tikslusnotyrious({title:'new message',
+                 message:"Light travels faster than sound",
+                sticky:false,
+				skinPath:'../'
+			});
+                    });
+                </code>
+                </pre>
+                 <!-- code implementation-->
+                    <a href='#' id='example2'>Run Example 2</a>
+                 <script language="javascript">
+                     $("#example2").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'new message',
+                 message:"Light travels faster than sound",
+                sticky:false,
+				skinPath:'../'
+               
+           });
+                    });
+                    
+                     </script>
+                    
+                         <h4 class="heading">Example 3: use of image/picture </h4>
+                <p>Javascript</p>
+		<pre>
+		<code data-language="javascript">
+                         $("#example3").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'new message',
+                 message:"Light travels faster than sound",
+                sticky:false,
+                picture:"image.jpg",
+				skinPath:'../'
+           });
+                    });
+                </code>
+                </pre>
+                
+                   <a href='#' id='example3'>Run Example 3</a>
+                 <!-- code implementation-->
+                     <script language="javascript">
+                              $("#example3").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'new message',
+                 message:"Light travels faster than sound",
+                sticky:false,
+                picture:'image.jpg',
+				skinPath:'../'
+                
+           });
+                    });
+                         </script>
+                     
+                  
+                                                <h4 class="heading">Example 4: Custom Buttons </h4>
+                <p>Javascript</p>
+		<pre>
+		<code data-language="javascript">
+                            $("#example4").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'custom buttons',
+                 message:"Light travels faster than sound. This is why some people appear bright until you hear them speak.",
+                sticky:false,
+				skinPath:'../',
+                picture:"image.jpg",
+                buttons	: {
+				button1	: {
+					button_class	: 'btn1',
+					action: function(){
+						alert('you clicked button1');
+					}
+				},
+				button2	: {
+					button_class	: 'btn2',
+					action: function(){
+					alert('you clicked button2');
+					}	
+				}
+			}
+                
+           });
+                    });
+                </code>
+                </pre>
+                 <!-- code implementation-->
+                  <a href='#' id='example4'>Run Example 4</a>
+                    <script language="javascript">
+                                 $("#example4").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'custom buttons',
+                 message:"Light travels faster than sound. This is why some people appear bright until you hear them speak.",
+                sticky:false,
+               skinPath:'../',
+                picture:'image.jpg',
+                buttons	: {
+				button1	: {
+					button_class	: 'btn2',
+					action: function(){
+						alert('you clicked button1');
+					}
+				},
+				button2	: {
+					button_class	: 'btn2',
+					action: function(){
+					alert('you clicked button2');
+					}	
+				}
+			}
+                
+           });
+                    });
+                        </script>
+                        
+                        
+                        
+                  <h4 class="heading">Example 5: notification position </h4>
+                  <p>You can position message to right,left or center</p>
+                  
+                <p>Javascript</p>
+		<pre>
+		<code data-language="javascript">
+               
+                              $("#example5").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'position left',
+                 message:"Light travels faster than sound",
+                sticky:true,
+                picture:"image.jpg",
+                position:'left',
+				skinPath:'../'
+           });
+                    });
+                </code>
+                </pre>
+                
+                <!-- code implementation -->
+                   <a href='#' id='example5'>position left</a><br/>
+                   <a href='#' id='example5a'>position right</a><br/>
+                   <a href='#' id='example5b'>position center</a><br/>
+                   
+                <script language="javascript">
+                                  $("#example5").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'position left',
+                 message:"Light travels faster than sound",
+                sticky:true,
+                picture:'image.jpg',
+                position:'left',
+				skinPath:'../'
+       
+           });
+                    });
+                    
+                    
+                                               $("#example5a").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'position right',
+                 message:"Light travels faster than sound",
+                sticky:true,
+                picture:'image.jpg',
+                position:'right',
+				skinPath:'../'
+                
+           });
+                    });
+                    
+                    
+                                               $("#example5b").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'position center',
+                 message:"Light travels faster than sound",
+                sticky:true,
+                picture:'image.jpg',
+                position:'center',
+				skinPath:'../'
+                
+           });
+                    });
+                    
+                    
+                    </script>
+                
+               
+                              
+                  <h4 class="heading">Example 6: Skins </h4>
+                  <p>You can use 7 different predefined skins (default,apollo,demeter,hades,hera,titan,zeus)</p> 
+                  <p>default setting is <b>default</b></p>
+                  <p>Tikslus notyrious has 7 different css files for each skin.</p>
+                  <p>If you move these css files elsewhere then you have to specify full path of the folder </p>
+                  <p>For exampel, If you put your skin css files in <B>skins</b> folder, you have to specify full path in <b>skinPath</b> parameter</p>
+                  <p>skin examples</p>
+                  
+                  <ul>
+                      <li><a href="#" id='default'>default</a></li>
+                      <li><a href="#" id='apollo'>apollo</a></li>
+                      <li><a href="#" id='demeter'>demeter</a></li>
+                      <li><a href="#" id='hades'>hades</a></li>
+                      <li><a href="#" id='hera'>hera</a></li>
+                      <li><a href="#" id='titan'>titan</a></li>
+                      <li><a href="#" id='zeus'>zeus</a></li>
+                  </ul>
+                  
+                <p>Javascript</p>
+		<pre>
+		<code data-language="javascript">
+                                        $("#example6").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'Zeus skin',
+                 message:"Light travels faster than sound",
+                sticky:true,
+                picture:"image.jpg",
+                position:'left',
+                skin:'zeus',
+				skinPath:'../'
+           });
+                    });
+                </code>
+                </pre>
+                
+                    
+                
+                 <!-- code implementation-->
+                 <script language="javascript">
+                                              $("#default").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'default skin',
+                 message:"Light travels faster than sound",
+                sticky:true,
+                picture:'image.jpg',
+                position:'left',
+                skin:'default',
+				skinPath:'../'
+               
+           });
+                    });  
+                    
+                    
+ $("#hera").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'hera skin',
+                 message:"Light travels faster than sound",
+                sticky:true,
+                picture:'image.jpg',
+                position:'center',
+                skin:'hera',
+				skinPath:'../'
+                
+           });
+                    });  
+
+  $("#zeus").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'zeus skin',
+                 message:"Light travels faster than sound",
+                sticky:false,
+                picture:'image.jpg',
+                position:'right',
+                skin:'zeus',
+				skinPath:'../'
+                
+           });
+                    });  
+                    
+                    
+$("#demeter").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'demeter skin',
+                 message:"Light travels faster than sound",
+                sticky:false,
+                picture:'image.jpg',
+                position:'center',
+                skin:'demeter',
+				skinPath:'../'
+               
+           });
+                    });  
+                    
+                    
+$("#hades").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'hades skin',
+                 message:"Light travels faster than sound",
+                sticky:true,
+                picture:'image.jpg',
+                position:'center',
+                skin:'hades',
+				skinPath:'../'
+                
+           });
+                    });  
+
+    $("#apollo").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'apollo skin',
+                 message:"Light travels faster than sound",
+                sticky:true,
+                picture:'image.jpg',
+                position:'left',
+                skin:'apollo',
+				skinPath:'../'
+                 
+           });
+                    });  
+                    
+$("#titan").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({title:'titan skin',
+                 message:"Light travels faster than sound",
+                sticky:true,
+                picture:'image.jpg',
+                position:'center',
+                skin:'titan',
+				skinPath:'../'
+                 
+           });
+                    });                      
+                    
+
+                    
+                     </script>
+                   
+                     
+                                     
+                  <h4 class="heading">Example 7: All default values (except message)</h4>
+                  <p><b>Please, note you can't define custom buttons with multiple messages</b></p>
+                <p>Javascript</p>
+		<pre>
+<code data-language="javascript">
+$("#example7").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({message:'hello world'.skinPath:'../'});
+                    });  
+                </code>
+                </pre>
+                  
+                      <a href='#' id='example7'>Example 7</a><br/>
+                     <script language="javascript">
+    $("#example7").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({message:"hello world",skinPath:'../'});
+                    });  
+                     </script>
+                     
+                     
+                       <h4 class="heading">Example 8: Multiple messages at once</h4>
+                                     <p>Javascript</p>
+		<pre>
+<code data-language="javascript">
+    var messages = new Array();
+messages[0]={message:"I asked God for a bike, but I know God does not work that way. So I stole a bike and asked for forgiveness",picture:"image.jpg"};
+messages[1]={title:'message2',message:"Light travels faster than sound. This is why some people appear bright until you hear them speak."};
+messages[2]={title:'message3',message:'War does not determine who is right – only who is left',picture:"image.jpg"};
+
+$("#example8").click(function(e){
+                    e.preventDefault();   
+           $.fn.tikslusnotyrious({message:messages,
+                  position:'right',
+                skin:'titan',
+				skinPath:'../'
+                 
+           
+           });
+                    });  
+                </code>
+                </pre>
+                                     
+                                          <a href='#' id='example8'>Run Example 8</a><br/>
+                     <script language="javascript">
+                           var messages = new Array();
+messages[0]={message:"I asked God for a bike, but I know God does not work that way. So I stole a bike and asked for forgiveness","picture":"{{asset('/web/bundles/tikslustikslus/js/tikslus_notyrious/image.jpg')}}"};
+messages[1]={"title":'message2',"message":"Light travels faster than sound. This is why some people appear bright until you hear them speak."};
+messages[2]={"title":'message3',"message":'War does not determine who is right only who is left',picture:'image.jpg'};
+
+    $("#example8").click(function(e){
+                    e.preventDefault(); 
+                        $.fn.tikslusnotyrious({message:messages,
+                  position:'right',
+                skin:'titan',
+				skinPath:'../'
+                             
+        
+        });
+        
+                    });  
+                     </script>
+                                     
+                 <br/>
+                 <br/>
+                 
+                 <h4>List of parameters you can use with Tikslus Notyrious</h4>
+                 
+                 <table width="100%" class="table tbl_parameters">
+		<tr>
+		<th>Parameter</th><th>Default value</th><th>Allowed Value</th><th>Description</th>
+		</tr>
+		<tr>
+		<td>skin</td><td>default</td><td>default,hera,hades,titan,zeus,apollo,demeter</td><td>Theme/skin to be used</td>
+		</tr>
+                
+                <tr>
+		<td>skinPath</td><td>''</td><td>If you chose to put your all skin css files in seperate folder. You provide full path of the directory with a trailing '/'</td><td>Defines the path of skins directory</td>
+		</tr>
+                
+                <tr>
+                    <td>position</td><td>right</td><Td>right,left or center</Td><Td>position of message on screen</td>
+                </tr>
+                     
+                <tr>
+		<td>message</td><td>null</td><td>valid Notification message</td><td>notification message</td>
+		</tr>
+                <tr>
+		<td>sticky</td><td>true</td><td>true or false</td><td>if true message will stick to screen and you have to manually close it</td>
+		</tr>
+                 
+                <tr>
+		<td>buttons</td><td>it's a javascript object</td>
+                <td>
+                <label>example</label>
+                
+                                    <pre>
+                        <code data-language="javascript">
+    $.fn.tikslusnotyrious({title:'custom buttons',
+                 message:"Light travels faster than sound. This is why some people appear bright until you hear them speak.",
+                sticky:false,
+                picture:"image.jpg",
+                buttons	: {
+				button1	: {
+					button_class	: 'btn1',
+					action: function(){
+						alert('you clicked button1');
+					}
+				},
+				button2	: {
+					button_class	: 'btn2',
+					action: function(){
+					alert('you clicked button2');
+					}	
+				}
+			}
+                
+           });
+                        </code>
+                        </pre>
+                
+                
+                </td>
+                <td>defines custom buttons</td>
+		</tr>
+                
+                <tr>
+		<td>stayInterval</td><td>10000</td><td>time in miliseconds before the message disappears</td><td>this will only work if sticky is set to true </td>
+		</tr>
+                
+                <tr>
+		<td>picture</td><td>null</td><td>valid path of an image</td><td></td>
+		</tr>
+                
+             
+                </table>
+
+</body>
+
+
+
+
+</html>

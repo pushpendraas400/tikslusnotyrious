@@ -1,0 +1,152 @@
+.tikslus_notify_vertical_vleft li.apollo,.tikslus_notify_vertical_vright li.apollo,.tikslus_notify_vertical_vcenter li.apollo{
+padding: 0.2em;
+background-color: #6CD682;
+border: 2px solid #3A9E3E;
+margin-bottom: 1em;
+position: relative;
+opacity: 1;
+}
+
+
+.tikslus_notify_vertical_vleft li.apollo div.picture,.tikslus_notify_vertical_vright li.apollo div.picture,.tikslus_notify_vertical_vcenter li.apollo div.picture{
+/* float: right; */
+position: absolute;
+min-width: 32px;
+min-height: 32px;
+background-color: #6CD682;
+/* border: 4px solid #A7A7A7; */
+ border-radius: 50%; 
+display: block;
+width: 20%; 
+ height: 100%;
+top: 21.5%;
+ right: 0%;
+}
+
+.tikslus_notify_vertical_vleft li.apollo p,.tikslus_notify_vertical_vright li.apollo p,.tikslus_notify_vertical_vcenter li.apollo p{
+padding-right: 3%;
+padding-left:3%;
+color: #fff;
+}
+
+.tikslus_notify_vertical_vleft li.apollo .progress,.tikslus_notify_vertical_vright li.apollo .progress,.tikslus_notify_vertical_vcenter li.apollo .progress{
+background-color:#23683a;
+height:4px;
+width:0;
+margin-top:10px;
+}
+
+
+.tikslus_notify_vertical_vleft li.apollo .title,.tikslus_notify_vertical_vright li.apollo .title,.tikslus_notify_vertical_vcenter li.apollo .title{
+background-color: #0C8848;
+padding: 4px;
+font-size: 1.2em;
+color: #fff;
+}
+
+.tikslus_notify_vertical_vleft li.apollo .close,.tikslus_notify_vertical_vright li.apollo .close,.tikslus_notify_vertical_vcenter li.apollo .close{
+background-color: #0C8848;
+margin: 0;
+padding: 4px;
+font-size: 1.2em;
+color: #fff;
+position:absolute;
+top:-3%;
+right:-1%;
+text-decoration:none;
+} 
+/*
+.tikslus_notify_vertical_vleft li.apollo .close a,.tikslus_notify_vertical_vright li.apollo .close a,.tikslus_notify_vertical_vcenter li.apollo .close a{
+text-decoration:none;
+border-radius:50%;
+display:block;
+color: #fff !important;
+background-color:#0C8848 !important;
+padding-left: 0.5em;
+padding-right:0.5em;
+padding-top:0.25em;
+padding-bottom:0.25em;
+font-size: 0.9em;
+
+}*/
+
+
+
+.tikslus_notify_vertical_vleft li.apollo .close a:hover,.tikslus_notify_vertical_vright li.apollo .close a:hover,.tikslus_notify_vertical_vcenter li.apollo .close a:hover{
+background-color:#238b3a !important;
+
+}
+
+.tikslus_notify_vertical_vleft liapollo .btns ul.user_buttons,.tikslus_notify_vertical_vright liapollo .btns ul.user_buttons,.tikslus_notify_vertical_vcenter liapollo .btns ul.user_buttons{
+list-style:none;
+width:75%;
+}
+
+
+.tikslus_notify_vertical_vleft liapollo .btns ul li,.tikslus_notify_vertical_vright liapollo .btns ul li,.tikslus_notify_vertical_vcenter liapollo .btns ul li{
+float:right;
+display:block;
+margin:0.25em;
+}
+
+
+.tikslus_notify_vertical_vleft li.apollo .btns ul li a:hover,.tikslus_notify_vertical_vright li.apollo .btns ul li a:hover,.tikslus_notify_vertical_vcenter li.apollo .btns ul li a:hover{
+color:#222;
+background-color: #ffe473 !important;
+}
+
+.tikslus_notify_vertical_vleft li.apollo .btns ul li.closenotification a.close:hover,.tikslus_notify_vertical_vright li.apollo .btns ul li.closenotification a.close:hover,.tikslus_notify_vertical_vcenter li.apollo .btns ul li.closenotification a.close:hover,{
+color: #222 !important;
+background-color: #ffe473 !important;
+}
+
+.tikslus_notify_vertical_vleft li.apollo .btns ul.user_buttons,.tikslus_notify_vertical_vright li.apollo .btns ul.user_buttons,.tikslus_notify_vertical_vcenter li.apollo .btns ul.user_buttons {
+list-style: none;
+/* margin: auto; */
+padding: 0;
+float: right;
+}
+
+
+.tikslus_notify_vertical_vleft li.apollo .btns ul.user_buttons li,.tikslus_notify_vertical_vright li.apollo .btns ul.user_buttons li,.tikslus_notify_vertical_vcenter li.apollo .btns ul.user_buttons  li{
+float:left;
+margin:0.2em;
+}
+
+
+.tikslus_notify_vertical_vleft li.apollo .btns ul.user_buttons li a,.tikslus_notify_vertical_vright li.apollo .btns ul.user_buttons li a,.tikslus_notify_vertical_vcenter li.apollo .btns ul.user_buttons li a{
+text-decoration: none;
+display: block;
+
+background-color:#0C8848 !important;
+color:#fff !important;
+
+font-size: 0.9em;
+padding: 0.2em;
+}
+
+.tikslus_notify_vertical_vleft li.apollo .btns ul.user_buttons li a:hover,.tikslus_notify_vertical_vright li.apollo .btns ul.user_buttons li a:hover,.tikslus_notify_vertical_vcenter li.apollo .btns ul.user_buttons li a:hover{
+color: #fff !important;
+background-color: #238b3a !important;
+border:1px solid #abebb9;
+}
+
+
+
+
+.tikslus_notify_vertical_vleft li.apollo .close .left,.tikslus_notify_vertical_vright li.apollo .close .left,.tikslus_notify_vertical_vcenter li.apollo .close .left{
+left:0%;
+}
+.tikslus_notify_vertical_vleft li.apollo .close .right,.tikslus_notify_vertical_vright li.apollo .close .right,.tikslus_notify_vertical_vcenter li.apollo .close .right{
+right:0%;
+}
+
+.tikslus_notify_vertical_vleft li.apollo .close .top,.tikslus_notify_vertical_vright li.apollo .close .top,.tikslus_notify_vertical_vcenter li.apollo .close .top{
+top:-1%;
+}
+.tikslus_notify_vertical_vleft li.apollo .close .bottom,.tikslus_notify_vertical_vright li.apollo .close .bottom,.tikslus_notify_vertical_vcenter li.apollo .close .bottom{
+bottom:0%;
+}
+
+
+

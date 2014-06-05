@@ -1,0 +1,110 @@
+.tikslus_notify_vertical_vleft li.zeus,.tikslus_notify_vertical_vright li.zeus,.tikslus_notify_vertical_vcenter li.zeus{
+padding: 0.2em;
+background-color: #04c5f2;
+margin-bottom: 1em;
+position: relative;
+opacity: 1;
+   -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+
+  
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+
+    border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.tikslus_notify_vertical_vleft li.zeus div.picture,.tikslus_notify_vertical_vright li.zeus div.picture,.tikslus_notify_vertical_vcenter li.zeus div.picture{
+/* float: right; */
+position: absolute;
+min-width: 32px;
+min-height: 32px;
+ border-radius: 50%; 
+display: block;
+width: 20%; 
+ height: 100%;
+top: 21.5%;
+ right: 0%;
+}
+.tikslus_notify_vertical_vleft li.zeus p,.tikslus_notify_vertical_vright li.zeus p,.tikslus_notify_vertical_vcenter li.zeus p{
+padding-right: 3%;
+padding-left:3%;
+color: #fff;
+font-size:100%;
+}
+
+.tikslus_notify_vertical_vleft li.zeus .progress,.tikslus_notify_vertical_vright li.zeus .progress,.tikslus_notify_vertical_vcenter li.zeus .progress{
+background-color:#41d3f6;
+height:5px;
+width:0;
+}
+
+
+.tikslus_notify_vertical_vleft li.zeus .title,.tikslus_notify_vertical_vright li.zeus .title,.tikslus_notify_vertical_vcenter li.zeus .title{
+padding: 4px;
+font-size: 1.2em;
+color: #fff !important;
+
+background-color:#26cef6 !important;
+   -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+
+  
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+
+    border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+
+.tikslus_notify_vertical_vleft li.zeus .close,.tikslus_notify_vertical_vright li.zeus .close,.tikslus_notify_vertical_vcenter li.zeus .close{
+
+
+display:block;
+
+margin: 0;
+color: #fff !important;
+position:absolute;
+top:0;
+right:0;
+
+}
+.tikslus_notify_vertical_vleft li.zeus .close a,.tikslus_notify_vertical_vright li.zeus .close a,.tikslus_notify_vertical_vcenter li.zeus .close a{
+text-decoration:none;
+border-radius:50%;
+display:block;
+color: #fff !important;
+background-color:#26cef6 !important;
+padding-left: 0.5em;
+padding-right:0.5em;
+padding-top:0.25em;
+padding-bottom:0.25em;
+font-size: 0.9em;
+
+}
+
+.tikslus_notify_vertical_vleft li.zeus .close a:hover,.tikslus_notify_vertical_vright li.zeus .close a:hover,.tikslus_notify_vertical_vcenter li.zeus .close a:hover{
+background-color:#41d3f6 !important;
+
+}
+
+
+
+.tikslus_notify_vertical_vleft li.zeus .close .left,.tikslus_notify_vertical_vright li.zeus .close .left,.tikslus_notify_vertical_vcenter li.zeus .close .left{
+left:0%;
+}
+.tikslus_notify_vertical_vleft li.zeus .close .right,.tikslus_notify_vertical_vright li.zeus .close .right,.tikslus_notify_vertical_vcenter li.zeus .close .right{
+right:0%;
+}
+
+.tikslus_notify_vertical_vleft li.zeus .close .top,.tikslus_notify_vertical_vright li.zeus .close .top,.tikslus_notify_vertical_vcenter li.zeus .close .top{
+top:-1%;
+}
+.tikslus_notify_vertical_vleft li.zeus .close .bottom,.tikslus_notify_vertical_vright li.zeus .close .bottom,.tikslus_notify_vertical_vcenter li.zeus .close .bottom{
+bottom:0%;
+}
+
+
+

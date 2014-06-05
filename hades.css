@@ -1,0 +1,153 @@
+.tikslus_notify_vertical_vleft li.hades,.tikslus_notify_vertical_vright li.hades,.tikslus_notify_vertical_vcenter li.hades{
+padding: 0.2em;
+background-color: #121719;
+margin-bottom: 1em;
+position: relative;
+opacity: 1;
+   -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+ -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+   -moz-border-radius-topright: 5px;
+  -moz-border-radius-topleft: 5px;
+
+    border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  
+  -webkit-box-shadow: 0px -1px 14px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px -1px 14px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px -1px 14px 0px rgba(50, 50, 50, 0.75);
+  border:1px solid #262626;
+  
+}
+
+
+.tikslus_notify_vertical_vleft li.hades div.picture,.tikslus_notify_vertical_vright li.hades div.picture,.tikslus_notify_vertical_vcenter li.hades div.picture{
+/* float: right; */
+position: absolute;
+min-width: 32px;
+min-height: 32px;
+ border-radius: 50%; 
+display: block;
+width: 20%; 
+ height: 100%;
+top: 21.5%;
+ right: 0%;
+}
+
+.tikslus_notify_vertical_vleft li.hades p,.tikslus_notify_vertical_vright li.hades p,.tikslus_notify_vertical_vcenter li.hades p{
+padding-right: 3%;
+padding-left:3%;
+color: #fff;
+}
+
+.tikslus_notify_vertical_vleft li.hades .progress,.tikslus_notify_vertical_vright li.hades .progress,.tikslus_notify_vertical_vcenter li.hades .progress{
+background-color:#dae4d4;
+height:5px;
+width:0;
+margin-bottom:.5em;
+}
+
+div.error{
+background-image:url("icons/error.png");
+background-repeat:no-repeat;
+background-position:center center;
+}
+
+.tikslus_notify_vertical_vleft li.hades .title,.tikslus_notify_vertical_vright li.hades .title,.tikslus_notify_vertical_vcenter li.hades .title{
+padding: 4px;
+font-size: 1.2em;
+color: #dae4d4 !important;
+
+background-color:#030a0d;
+color:#dae4d4;
+}
+
+
+.tikslus_notify_vertical_vleft li.hades .close a,.tikslus_notify_vertical_vright li.hades .close a,.tikslus_notify_vertical_vcenter li.hades .close a{
+background-color:#333 !important;
+margin: 0;
+padding-left: 0.5em;
+padding-right:0.5em;
+padding-top:0.25em;
+padding-bottom:0.25em;
+font-size: 0.7em;
+text-decoration:none;
+color: #fff !important;
+position:absolute;
+top:0;
+right:0;
+display:block;
+
+}
+
+.tikslus_notify_vertical_vleft li.hades .close a:hover,.tikslus_notify_vertical_vright li.hades .close a:hover,.tikslus_notify_vertical_vcenter li.hades .close a:hover{
+background-color:#fff !important;
+color:#333 !important;
+
+}
+
+.tikslus_notify_vertical_vleft li.hades .btns ul,.tikslus_notify_vertical_vright li.hades .btns ul,.tikslus_notify_vertical_vcenter li.hades .btns ul{
+list-style:none;
+}
+.tikslus_notify_vertical_vleft li.hades .btns ul.user_buttons,.tikslus_notify_vertical_vright li.hades .btns ul.user_buttons,.tikslus_notify_vertical_vcenter li.hades .btns ul.user_buttons{
+list-style:none;
+width:85%;
+}
+
+
+.tikslus_notify_vertical_vleft li.hades .btns ul li,.tikslus_notify_vertical_vright li.hades .btns ul li,.tikslus_notify_vertical_vcenter li.hades .btns ul li{
+float:right;
+display:block;
+margin:0.25em;
+}
+
+
+
+
+.tikslus_notify_vertical_vleft li.hades .btns ul.user_buttons li,.tikslus_notify_vertical_vright li.hades .btns ul.user_buttons li,.tikslus_notify_vertical_vcenter li.hades .btns ul.user_buttons li{
+float:right;
+display:block;
+margin:0.25em;
+
+}
+
+
+
+.tikslus_notify_vertical_vleft li.hades .btns ul li a,.tikslus_notify_vertical_vright li.hades .btns ul li a,.tikslus_notify_vertical_vcenter li.hades .btns ul li a{
+text-decoration: none;
+display: block;
+
+background-color:#333 !important;
+color:#fff !important;
+
+font-size: 0.9em;
+padding: 0.5em;
+}
+
+.tikslus_notify_vertical_vleft li.hades .btns ul li a:hover,.tikslus_notify_vertical_vright li.hades .btns ul li a:hover,.tikslus_notify_vertical_vcenter li.hades .btns ul li a:hover{
+color:#333 !important;
+background-color: #fff !important;
+}
+
+.tikslus_notify_vertical_vleft li.hades .close .left,.tikslus_notify_vertical_vright li.hades .close .left,.tikslus_notify_vertical_vcenter li.hades .close .left{
+left:0%;
+}
+.tikslus_notify_vertical_vleft li.hades .close .right,.tikslus_notify_vertical_vright li.hades .close .right,.tikslus_notify_vertical_vcenter li.hades .close .right{
+right:0%;
+}
+
+.tikslus_notify_vertical_vleft li.hades .close .top,.tikslus_notify_vertical_vright li.hades .close .top,.tikslus_notify_vertical_vcenter li.hades .close .top{
+top:-1%;
+}
+.tikslus_notify_vertical_vleft li.hades .close .bottom,.tikslus_notify_vertical_vright li.hades .close .bottom,.tikslus_notify_vertical_vcenter li.hades .close .bottom{
+bottom:0%;
+}
+
+
+
