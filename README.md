@@ -11,3 +11,7 @@ Comes with following features:
 
 
 Visit http://tikslus.com/tikslusnotyrious for a demo
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pushpendra10/tikslusnotyrious/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
